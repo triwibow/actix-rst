@@ -16,8 +16,8 @@ pub fn get_handler()-> Scope {
 async fn index() -> Result<impl Responder> {
 
   let data = vec![
-    UserModel::new(12, String::from("Sgie"), String::from("Sarkem"), 12, 1),
-    UserModel::new(12, String::from("Sgie"), String::from("Sarkem"), 12, 1)
+    UserModel::new(12, String::from("joni"), String::from("Sarkem"), 12, 1),
+    UserModel::new(12, String::from("jono"), String::from("Sarkem"), 12, 1)
   ];
 
   Ok(Res::json(
